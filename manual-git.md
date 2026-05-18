@@ -1,11 +1,18 @@
-## Configurar o git
+## 1 Configurar o git
+``` COPIAR
 git config --global user.name "Johny Feitosa"
+```
+
+```
 git config --global user.email "joniii5@hotmail.com"
+```
 
-## primeiros comandos
+## 2 primeiros comandos SÓ PROJETO NOVO ( AINDA NÃO SUBIU NO GIT )
+``` COPIAR
 git init
+```
 
-## Usando o tempo todo
+## 3 Usando o tempo todo
 ### Comando para adicionar todos os arquivos que estão fora do gitignore
 git add .
 
