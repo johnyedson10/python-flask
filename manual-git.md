@@ -16,3 +16,4 @@ git commit -m "first commit"
 git push
 
 ### Git Status
+git status
