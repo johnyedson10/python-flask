@@ -20,9 +20,9 @@ def sobre():
     return '<h1>Sobre a Empresa</h1>'
 
 # Quarta rota usando Flask Página de vendas GET, POST, PUT, DELETE
-@app.route('/vendas', methods=['GET'])
-def Pagina_de_vendas():
-    return '<h1>Notebook Dell</h1>'
+@app.route('/cadastro', methods=['GET'])
+def cadastro():    
+    return render_template('cadastro.html')
        
 
 
