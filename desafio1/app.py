@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request # pyright: ignore[reportMissingImports]
 
 # inicia o Flask
 app = Flask(__name__)
