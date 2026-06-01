@@ -6,7 +6,8 @@ app = Flask(__name__)
 # GET e POST
 # GET: coletar os dados
 #POST: insere dados
-@app.route('/', methods=['GET e POST'])
+@app.route('/', methods=['GET e POST'])  # @app.route('/'): Define que este código deve ser executado quando alguém acessar a página inicial do seu site (a raiz, representada pela barra /).
+                                         # methods=['GET', 'POST']: Define quais tipos de "conversas" o servidor aceita nesse endereço.
 #def é função no python
 def cadastro():
     if request.method == 'POST':
