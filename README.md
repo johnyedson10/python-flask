@@ -1,6 +1,8 @@
 # Hello
 
-## para sincronizar dados do repositório para o computador
+## Backup
+
+### para sincronizar dados do repositório para o computador
  ```
 git pull
  ```
@@ -20,3 +22,20 @@ git pull
 ### Backup usando Releases do Github
 
 <img src="./image/releases.png" alt="" />
+
+
+### Tipos de backup
+- [x] Github
+- [ ] CSV
+- [ ] Json
+- [ ] Dump
+
+### Projetos mobile Nativo PWA e Responsivo
+
+- PWA
+- Nativo
+- Responsivo
+
+## Restaurar
+
+## Suporte
